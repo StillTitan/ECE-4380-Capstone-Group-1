@@ -560,7 +560,7 @@ int main(void)
   OLED_ClearBuffer();
   OLED_Update();
 
-  ESP_StartAccessPoint();   // ESP-01S AP: EnergyMonitor_AP / password123
+  //ESP_StartAccessPoint();   // ESP-01S AP: EnergyMonitor_AP / password123
 
   /* Initialize RTOS and register tasks */
   RTOS_Init();
